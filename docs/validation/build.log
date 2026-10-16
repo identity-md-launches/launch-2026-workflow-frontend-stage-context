@@ -1,0 +1,29 @@
+
+> folir-web@1.0.0 typecheck
+> tsc --noEmit
+
+
+> folir-web@1.0.0 build
+> vite build && node scripts/export-manifest.mjs
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 1804 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                                              1.10 kB │ gzip:   0.54 kB
+../dist/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2   14.70 kB
+../dist/assets/inter-latin-wght-normal-Dx4kXJAl.woff2          48.25 kB
+../dist/assets/index-BuEMAhcm.css                              21.47 kB │ gzip:   5.19 kB
+../dist/assets/ccip-DpdkB-m1.js                                 2.84 kB │ gzip:   1.31 kB
+../dist/assets/dist-CAHmNUpN.js                                98.96 kB │ gzip:  31.97 kB
+../dist/assets/index-Z_-BFbt6.js                              631.71 kB │ gzip: 189.21 kB
+
+✓ built in 819ms
+Attested 1 ABI; inventoried 17 exported assets.
+Export integrity passed: 17 assets, 897142 bytes, exact handoff and network.
+
+> folir-web@1.0.0 verify
+> node scripts/verify-export.mjs
+
+Export integrity passed: 17 assets, 897142 bytes, exact handoff and network.

@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-10-16T20:48:12.232Z",
+  "mode": "Read only. No transactions submitted.",
+  "contract": "0x440ef02eef2531aa31646fb5d627c53734033640",
+  "results": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "block": "11929699",
+      "codeBytes": 5862,
+      "runtimeCodeHash": "0x6d188b7e5a717946a42ab0cde86f2efb3822e56f54b1f23bebf5882f49aab44e",
+      "state": {
+        "owner": "0xd470133A27B58a2949D2a0BE9414204dB3eb0aB4",
+        "pendingOwner": "0x0000000000000000000000000000000000000000",
+        "paused": true,
+        "isConfigured": false,
+        "paymentToken": "0x0000000000000000000000000000000000000000",
+        "paymentTokenDecimals": 0,
+        "swarmRecipient": "0x0000000000000000000000000000000000000000",
+        "treasuryRecipient": "0x0000000000000000000000000000000000000000",
+        "identityNft": "0x0000000000000000000000000000000000000000",
+        "receiptCount": "0"
+      },
+      "passed": true
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "block": "11929699",
+      "codeBytes": 5862,
+      "runtimeCodeHash": "0x6d188b7e5a717946a42ab0cde86f2efb3822e56f54b1f23bebf5882f49aab44e",
+      "state": {
+        "owner": "0xd470133A27B58a2949D2a0BE9414204dB3eb0aB4",
+        "pendingOwner": "0x0000000000000000000000000000000000000000",
+        "paused": true,
+        "isConfigured": false,
+        "paymentToken": "0x0000000000000000000000000000000000000000",
+        "paymentTokenDecimals": 0,
+        "swarmRecipient": "0x0000000000000000000000000000000000000000",
+        "treasuryRecipient": "0x0000000000000000000000000000000000000000",
+        "identityNft": "0x0000000000000000000000000000000000000000",
+        "receiptCount": "0"
+      },
+      "passed": true
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "block": "11929699",
+      "codeBytes": 5862,
+      "runtimeCodeHash": "0x6d188b7e5a717946a42ab0cde86f2efb3822e56f54b1f23bebf5882f49aab44e",
+      "state": {
+        "owner": "0xd470133A27B58a2949D2a0BE9414204dB3eb0aB4",
+        "pendingOwner": "0x0000000000000000000000000000000000000000",
+        "paused": true,
+        "isConfigured": false,
+        "paymentToken": "0x0000000000000000000000000000000000000000",
+        "paymentTokenDecimals": 0,
+        "swarmRecipient": "0x0000000000000000000000000000000000000000",
+        "treasuryRecipient": "0x0000000000000000000000000000000000000000",
+        "identityNft": "0x0000000000000000000000000000000000000000",
+        "receiptCount": "0"
+      },
+      "passed": true
+    }
+  ]
+}

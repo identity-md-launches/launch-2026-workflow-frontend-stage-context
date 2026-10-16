@@ -1,0 +1,46 @@
+{
+  "source": "Final pinned taste probe, rendered Chromium foreground/background measurements",
+  "textPairs": [
+    {
+      "text": "Understand your portfolio.",
+      "ratio": 13.02,
+      "selector": "#main > div.page-intro:nth-of-type(1) > div:nth-of-type(1) > h1",
+      "viewport": 390
+    },
+    {
+      "text": "Connect wallet",
+      "ratio": 9.23,
+      "selector": "#wallet-control",
+      "viewport": 390
+    },
+    {
+      "text": "Explore a sample portfolio. Try a test payment.",
+      "ratio": 5.11,
+      "selector": "#main > div.page-intro:nth-of-type(1) > div:nth-of-type(1) > p",
+      "viewport": 390
+    },
+    {
+      "text": "Test payment",
+      "ratio": 6.28,
+      "selector": "#payment > div.section-head:nth-of-type(1) > span.status-tag",
+      "viewport": 390
+    }
+  ],
+  "fonts": [
+    "Inter",
+    "IBM Plex Mono"
+  ],
+  "weights": [
+    400,
+    600,
+    700
+  ],
+  "typeSizes": [
+    12,
+    14,
+    16,
+    20,
+    32,
+    40
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "launchId": "32bdbf6d-3845-4f76-8a64-117d99cd256d",
+  "chainId": 11155111,
+  "sourceCommit": "2a60a84a403e0c035c0c8301c48efe086461aab0",
+  "attestationHash": "6f255d2a1216ff5ebd87efad449a9206bcfb18e8175eb637fdd08c6b1f19434f",
+  "contracts": [
+    {
+      "name": "FolirPayments",
+      "address": "0x440ef02eef2531aa31646fb5d627c53734033640",
+      "abiHash": "3020f73cbd8d1edc9e6f07ad4f27ca256672f3d9b1a8a3eccc938da57f52ad0c",
+      "abiPath": "abi/FolirPayments.json"
+    }
+  ],
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  },
+  "assets": [
+    {
+      "path": "abi/FolirPayments.json",
+      "sha256": "bbba1f0436bb07a6f1fe6017a06f002bf21febfc1d3b032f08246209b98e33ed"
+    },
+    {
+      "path": "assets/ccip-DpdkB-m1.js",
+      "sha256": "2e4538bb68f5eec81d9c2c190f27e4eacee235031700d0592edd2e199c25bb7b"
+    },
+    {
+      "path": "assets/dist-CAHmNUpN.js",
+      "sha256": "97df949cf587ae314fc5e5a0ef33545b547c9dbd7d6d43425ace48d57c838b8b"
+    },
+    {
+      "path": "assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "path": "assets/index-BuEMAhcm.css",
+      "sha256": "ff69bcbe19871ea1f0a23f5d847e3484692e68a6c8c052e98576968a1e8b832d"
+    },
+    {
+      "path": "assets/index-Z_-BFbt6.js",
+      "sha256": "6aac758270d05903b7a5038c8a6742f70bd31c1bf945d94d4a4a32318a2dac7e"
+    },
+    {
+      "path": "assets/inter-latin-wght-normal-Dx4kXJAl.woff2",
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "38ae95ec652cb2c9d9dc94d154ac493226421982e0b10b584c693e61b1b6ada6"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d8046366ba96cba78c717be056a864705bc9a434ddd4a505b6162a7267670e47"
+    },
+    {
+      "path": "licenses/ibm-plex-mono.txt",
+      "sha256": "23b0a9d0c6d3f140a0b77e483c5cfa6bba574325ef5cb189ed9f2fec4884533f"
+    },
+    {
+      "path": "licenses/inter.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "licenses/wallet-icons.txt",
+      "sha256": "5095037afa1ba03be36e04305c01ec9ee600e14377738a026482b1a888c4e365"
+    },
+    {
+      "path": "share.png",
+      "sha256": "16ba0ca72219f8c2e60573bd02d5a4d143132653c47d6066aa3c041028b8275f"
+    },
+    {
+      "path": "wallets/coinbase.svg",
+      "sha256": "a82c3b4f6715cbca630040e8b51436c5dfefba524a5cab128270d5e99164a33d"
+    },
+    {
+      "path": "wallets/metamask.svg",
+      "sha256": "892c7dfab8c4ca5682878dda3f42f55a75195d7d365e4adb0832845f3a0a2135"
+    },
+    {
+      "path": "wallets/phantom.svg",
+      "sha256": "f841f8112e131259a2e5123177950099c79487e61e77971f4e193e6c374419eb"
+    },
+    {
+      "path": "wallets/rabby.svg",
+      "sha256": "dcae4de88ebfa10cffa1fe28df13d7c8c0b40736ef2b704f1f2fc348e777e443"
+    }
+  ]
+}

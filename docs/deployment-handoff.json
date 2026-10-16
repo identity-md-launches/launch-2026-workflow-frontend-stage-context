@@ -1,0 +1,31 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-2023-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "32bdbf6d-3845-4f76-8a64-117d99cd256d",
+  "manifest": {
+    "kind": "evm_contracts",
+    "notes": "FolirPayments is the FOLIR payment-receipt application for Sepolia. Its constructor assigns control to $owner and starts paused. The owner configures the allowlisted test ERC-20 payment token, test ERC-721 identity NFT, and distinct swarm-funding and treasury recipients before unpausing. Standard payments transfer 0.50 token units to the swarm-funding recipient and 0.25 to the treasury; identity NFT holders pay 0.50 to the swarm-funding recipient with no treasury transfer. Receipts are unique per payer and order ID.",
+    "contracts": [
+      {
+        "contract": "FolirPayments",
+        "constructorArgs": [
+          "$owner"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "FolirPayments",
+      "txHash": "0xdc7b0fbc26491736b25984d004a877381898684b285a9a3575983500d4e2faff",
+      "abiHash": "3020f73cbd8d1edc9e6f07ad4f27ca256672f3d9b1a8a3eccc938da57f52ad0c",
+      "address": "0x440ef02eef2531aa31646fb5d627c53734033640",
+      "blockNumber": 11929634,
+      "creationCodeHash": "e9d8d646f7a69887d6fe0013890bd5ee91ba7604e367bc9602accdc7bb9b1877"
+    }
+  ],
+  "sourceCommit": "2a60a84a403e0c035c0c8301c48efe086461aab0",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "6f255d2a1216ff5ebd87efad449a9206bcfb18e8175eb637fdd08c6b1f19434f"
+}

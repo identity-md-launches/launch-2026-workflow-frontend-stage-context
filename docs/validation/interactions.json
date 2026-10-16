@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-16T20:56:36.812Z",
+  "target": "Production export served at an IPFS-style subpath",
+  "mode": "Mocked wallet and RPC. No real transaction broadcasts.",
+  "results": [
+    {
+      "name": "Disconnected, three steps, synthetic analysis, expandable assets, filters, scenarios, history, optional tax and download",
+      "passed": true,
+      "durationMs": 938
+    },
+    {
+      "name": "Mobile first screen at 390/320, wallet links, keyboard focus, dialog close, reflow and accessibility audit",
+      "passed": true,
+      "durationMs": 1483
+    },
+    {
+      "name": "Named EIP-6963 wallet, exact approval, pending lock, payment receipt, duplicate prevention and reload recovery",
+      "passed": true,
+      "durationMs": 1877
+    },
+    {
+      "name": "Identity NFT discount quotes and pays 0.50 with no treasury transfer",
+      "passed": true,
+      "durationMs": 1128
+    },
+    {
+      "name": "Unknown-chain switch adds exact handoff chain parameters and switches again",
+      "passed": true,
+      "durationMs": 650
+    },
+    {
+      "name": "Wrong network remains disabled after switch rejection and can recover",
+      "passed": true,
+      "durationMs": 707
+    },
+    {
+      "name": "Wallet connection rejection and transaction rejection show retryable errors",
+      "passed": true,
+      "durationMs": 1040
+    },
+    {
+      "name": "Simulation revert stops signing; changed recipients require a fresh review",
+      "passed": true,
+      "durationMs": 1150
+    },
+    {
+      "name": "Reverted payment is an error with no receipt, no success claim and retry enabled",
+      "passed": true,
+      "durationMs": 711
+    },
+    {
+      "name": "Receipt lookup by number and by wallet/order; absent and invalid inputs",
+      "passed": true,
+      "durationMs": 656
+    },
+    {
+      "name": "All owner configuration actions, recipient validation, pause/unpause, transfer/cancel/accept",
+      "passed": true,
+      "durationMs": 3680
+    },
+    {
+      "name": "RPC fallback, no-code/chain mismatch and unavailable RPC disable payments; wallet-provider fallback",
+      "passed": true,
+      "durationMs": 2525
+    },
+    {
+      "name": "Insufficient funds, large-balance reflow and account/chain change reset eligibility",
+      "passed": true,
+      "durationMs": 839
+    },
+    {
+      "name": "Pending transaction survives reload, stays locked and checks confirmation without resending",
+      "passed": true,
+      "durationMs": 1121
+    },
+    {
+      "name": "Zero-first allowance reset is explicit and confirms before exact approval",
+      "passed": true,
+      "durationMs": 1048
+    },
+    {
+      "name": "No gas blocks payment with faucet links; broken NFT quote preserves owner repair controls",
+      "passed": true,
+      "durationMs": 1190
+    },
+    {
+      "name": "Absent browser wallet gives a recoverable message and keeps alternative connector",
+      "passed": true,
+      "durationMs": 387
+    },
+    {
+      "name": "Owner layout, dialog contrast and keyboard focus remain usable",
+      "passed": true,
+      "durationMs": 2145
+    },
+    {
+      "name": "ABI tampering fails closed before payment UI loads",
+      "passed": true,
+      "durationMs": 145
+    },
+    {
+      "name": "Desktop, intermediate layout and reduced-motion render without errors",
+      "passed": true,
+      "durationMs": 507
+    },
+    {
+      "name": "WebKit browser",
+      "passed": null,
+      "limitation": "WebKit could not launch: required system libraries are unavailable."
+    }
+  ],
+  "pageErrors": []
+}

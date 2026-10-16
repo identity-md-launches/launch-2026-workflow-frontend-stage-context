@@ -1,0 +1,11 @@
+{
+  "limitBytes": 8388608,
+  "submissionRawFileBytes": 3256010,
+  "newOrChangedFileBytes": 2061628,
+  "changedFileCount": 86,
+  "exportAssetCount": 17,
+  "onlyAllowedChanges": true,
+  "noSubmodules": true,
+  "noDependencyOrCacheArtifacts": true,
+  "method": "Sum all submission file bytes, including unchanged tracked source; reserve at least 1 MiB for Git metadata/history and compression overhead. Dependency/cache trees and test/scratch are excluded by Git ignore or assignment scope."
+}
